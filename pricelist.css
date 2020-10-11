@@ -1,0 +1,155 @@
+body {
+background-color: #fafafa;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.top-left {
+  position: relative;
+  top: 0px;
+  left: 18px;
+}
+
+.top-left1 {
+  position: relative;
+  top: 0px;
+  left: 18px;
+}
+
+.top-left2 {
+  position: relative;
+  top: 220px;
+  right: 750px;
+}
+
+p.text {
+  font: small-caps bold 18px Georgia, serif;
+  color: #000000;
+}
+
+p.text3 {
+  font: italic small-caps bold 50px Georgia, serif;
+  color: #000000;
+}
+
+p.text2 {
+  font: small-caps bold 18px Georgia, serif;
+  color: #000000;
+}
+
+
+p.home {
+  position: absolute;
+  left: 93px;
+  top: 21px;
+}
+
+p.models {
+  position: absolute;
+  top: 21px;
+  left: 150px;
+}
+
+p.ab {
+  position: absolute;
+  left: 313px;
+  top: 21px;
+}
+
+p.pl {
+  position: absolute;
+  top: 21px;
+  left: 225px;
+}
+
+a.val{
+  font: 14px Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.valactive{
+  font: 14px Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+a.valactive:hover{
+  font: 14px Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+p:hover {
+  text-decoration: none;
+}
+
+.clear {    
+    clear:both;    
+}
+
+.responsive {
+  left: 200px;
+  margin-left: 400px;
+  margin-top: 50px;
+  padding: 10px;
+  float: left;
+  width: 350px;
+  height: 150px;
+}
+
+.responsive2 {
+  margin-left: -370px;
+  margin-top: 260px;
+  padding: 10px;
+  float: left;
+  width: 350px;
+  height: 150px;
+}
+
+.responsive3 {
+  left: 200px;
+  margin-left: 410px;
+  margin-top: 260px;
+  padding: 10px;
+  float: left;
+  width: 350px;
+  height: 150px;
+}
+
+.responsive4 {
+  position: relative;
+  top: 220px;
+  right: 750px;
+  float: left;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .responsive2 {
+  margin-left: 400px;
+  margin-top: 260px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}

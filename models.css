@@ -1,0 +1,153 @@
+body {
+background-color: #FFFAFA;
+}
+
+div.gallery {
+  border: 0px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery2 img {
+  width: 100%;
+  height: 450px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+a.valactive{
+  font: 14px Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+div.desc {
+  background-color : #f2f2f2;
+  padding: 15px;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+.responsive {
+  left: 200px;
+  margin-left: 80px;
+  padding: 10px;
+  float: left;
+  width: 400px;
+  height: 570px;
+}
+
+.responsive2 {
+  left: 200px;
+  margin-left: 80px;
+  padding: 10px;
+  float: left;
+  width: 89.5%;
+  height: 450px;
+}
+
+.btn {
+  background-color: #000000;
+  width:100%;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 0.6}
+
+.btntext {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .responsive2 {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive2 {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive2 {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p.va {
+  position: absolute;
+  left: 313px;
+  top: 21px;
+}
+p.va3 {
+  position: absolute;
+  left: 93px;
+  top: 21px;
+}
+
+p.va2 {
+  position: absolute;
+  top: 21px;
+  left: 225px;
+}
+
+p.models {
+  position: absolute;
+  top: 21px;
+  left: 150px;
+}
+
+a.val{
+  font: 14px Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}

@@ -1,0 +1,292 @@
+body {
+background-color: #fafafa;
+}
+
+h1.h11 {
+  text-align: left;
+  font-family: 'Alegreya';
+  font-size: 50px;
+  color: #000000;
+}
+
+h1.h12 {
+  top: 150px;
+  text-align: center;
+  font-family: 'Alegreya';
+  font-size: 50px;
+  color: #000000;
+}
+
+.h1div {
+  left: 5.5%;
+  position: absolute;
+  justify-content: center;
+  height: auto;
+}
+
+p.gpt2 {
+  font: 14px;
+  font-family: 'Alegreya';
+  color: #000000;
+  font-weight: bold;
+  float:right;  
+  letter-spacing: 3px;
+}
+
+
+.mhdiv {
+  padding: 60px;
+  position: relative;
+  height: auto;
+}
+
+.iframediv {
+  background-color: #ffffff;
+  left: 5%;
+  position: relative;
+  width: 90%;
+}
+
+.pdiv {
+  left: 5%;
+  position: relative;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+}
+
+p.p1 {
+  font: 14px;
+  font-family: 'Alegreya';
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+iframe {    
+    width:40%;
+    float:right;  
+}
+
+.clear {    
+    clear:both;    
+}
+
+p.p2 {
+  font: 14px;
+  font-family: 'Alegreya';
+  color: #000000;
+  font-weight: bold;
+  text-indent: 0px;
+  letter-spacing: 3px;
+}
+
+p.text {
+  font: small-caps bold 18px Georgia, serif;
+  color: #000000;
+}
+
+p.text3 {
+  font: italic small-caps bold 50px Georgia, serif;
+  color: #000000;
+}
+
+p.text2 {
+  font: small-caps bold 18px Georgia, serif;
+  color: #000000;
+}
+
+
+p.home {
+  position: absolute;
+  left: 93px;
+  top: 21px;
+}
+
+p.models {
+  position: absolute;
+  top: 21px;
+  left: 150px;
+}
+
+p.ab {
+  position: absolute;
+  left: 313px;
+  top: 21px;
+}
+
+p.pl {
+  position: absolute;
+  top: 21px;
+  left: 225px;
+}
+
+p.va4 {
+  position: absolute;
+  top: 21px;
+  left: 19.5%;
+}
+
+a.val{
+  font: 14px Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.call{
+  color: #000000;
+  text-decoration: none;
+}
+
+a.aboutpact{
+  opacity: 0.6;
+}
+
+a.valactive{
+  font: 14px Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+p:hover {
+  text-decoration: none;
+}
+
+a.val:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.responsivecar {
+  width: 90%;
+  height: auto;
+}
+
+.imgleft {
+    width:40%;
+    float:left;  
+}
+
+.imgright {
+    width:40%;
+    float:right;  
+}
+
+.imgright2div {
+  background-color: #ffffff;
+  left: 5%;
+  position: relative;
+  width: 90%;
+}
+
+.gptdiv {
+  left: 50%;
+  position: absolute;
+  height: auto;
+}
+
+.div1 {
+  width:100%;
+  height: auto;
+}
+
+.gpdiv { 
+  width: 100%;
+  left: 5.5%;
+  position: relative;
+  justify-content: center;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-google {
+  background: #1a1a1a;
+  color: white;
+}
+
+.fa-facebook {
+  background: #1a1a1a;
+  color: white;
+}
+
+.fa-twitter {
+  background: #1a1a1a;
+  color: white;
+}
+
+.fa-youtube {
+  background: #1a1a1a;
+  color: white;
+}
+
+.fa-instagram {
+  background: #1a1a1a;
+  color: white;
+}
+
+.blackbox {
+  display: inline-block;
+  border-style: solid;
+  border-color: #404040;
+  background: #000000;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.whitebox {
+  display: inline-block;
+  border-style: solid;
+  border-color: #404040;
+  background: #fafafa;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.f2f2box {
+  display: inline-block;
+  width: 50px;
+  border-style: solid;
+  border-color: #404040;
+  background: #f2f2f2;
+  height: 50px;
+  position: relative;
+}
+
+
+.f2f2boxx {
+  display: inline-block;
+  width: 50px;
+  border-style: solid;
+  border-color: #404040;
+  background: #616161;
+  height: 50px;
+  position: relative;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}

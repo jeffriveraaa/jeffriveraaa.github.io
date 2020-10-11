@@ -1,0 +1,7 @@
+[1010/130644.765:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1010/155236.131:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Jade Pizzapie\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\3e6f53c8-7a4d-4666-b923-c3344252560c: The system cannot find the path specified. (0x3)
+[1010/184709.313:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1010/190450.941:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1010/205242.370:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1011/152617.548:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1011/185334.345:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
