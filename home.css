@@ -12,7 +12,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
 }
 
 li {
@@ -465,6 +464,30 @@ div.gallery2 img {
   }
 }
 
+@media only screen and (max-width: 456px) {
+
+  a.yeah{ 
+  padding: 13px 10px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+
+  a.yeah{ 
+  padding: 13px 9px;
+  }
+}
+
+
+@media only screen and (max-width: 426px) {
+
+  a.yeah{ 
+  padding: 13px 9px;
+  font-size: 15px;
+  }
+}
+
+
 @media only screen and (max-width: 400px) {
   .responsive2 .responsive{
     width: 89.5%;
@@ -480,8 +503,44 @@ div.gallery2 img {
   width: 73%;
   }
   
+  a.yeah{ 
+  font-size: 12px;
+  }
+  
   .gallery2{
   width: 100%;
+  }
+}
+
+@media only screen and (max-width: 388px) {
+
+  a.yeah{ 
+  padding: 13px 11px;
+  font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+
+  a.yeah{ 
+  padding: 13px 8px;
+  font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 327px) {
+
+  a.yeah{ 
+  padding: 13px 7px;
+  font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+
+  a.yeah{ 
+  padding: 13px 40px;
+  font-size: 12px;
   }
 }
 
