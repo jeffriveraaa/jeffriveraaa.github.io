@@ -144,6 +144,12 @@ a.aboutpact{
   opacity: 0.6;
 }
 
+a.git{
+  color: #808080;
+  text-decoration: none;
+
+}
+
 a.valactive{
   font: 14px Arial, sans-serif;
   font-weight: bold;

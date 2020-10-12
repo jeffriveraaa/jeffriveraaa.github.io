@@ -107,49 +107,41 @@ p:hover {
   height: 150px;
 }
 
-.responsive2 {
-  margin-left: -370px;
-  margin-top: 260px;
-  padding: 10px;
-  float: left;
-  width: 350px;
-  height: 150px;
+@media only screen and (max-width: 1110px) {
+  .responsive {
+    width: 100%;
+  margin-left: 1.8%;
+  margin-top: 2%;
+  }
 }
 
-.responsive3 {
-  left: 200px;
-  margin-left: 410px;
-  margin-top: 260px;
-  padding: 10px;
-  float: left;
-  width: 350px;
-  height: 150px;
+@media only screen and (max-width: 850px) {
+  .responsive {
+    width: 100%;
+  margin-left: 1.8%;
+  margin-top: 2%;
+  }
 }
-
-.responsive4 {
-  position: relative;
-  top: 220px;
-  right: 750px;
-  float: left;
-}
-
 
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
+    width: 100%;
+  margin-left: 1.8%;
+  margin-top: 2%;
   }
 }
 
 @media only screen and (max-width: 460px) {
-  .responsive2 {
-  margin-left: 400px;
-  margin-top: 260px;
+  .responsive {
+  margin-left: 1.8%;
+  margin-top: 2%;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
+  margin-left: 1.8%;
+  margin-top: 2%;
   }
 }

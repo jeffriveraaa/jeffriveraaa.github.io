@@ -1,36 +1,6 @@
 body {
 background-color: #fafafa;
 }
-
-a:hover {
-  text-decoration: none;
-  opacity: 0.6;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #e6e6e6;
-}
-
 .btn {
   background-color: #000000;
   width:100%;
@@ -45,26 +15,25 @@ li a:hover {
   transition: 0.3s;
 }
 
-.btn:hover {
-	opacity: 0.6}
-	
+.btn:hover {opacity: 0.6}
 .clear {    
     clear:both;    
 }
 
 .btn2 {
   display: block;
-  font: 16px Arial, sans-serif;
+  font: 15px Arial, sans-serif;
   width: 87.39%;
   border: none;
   background-color: #000000;
-  color: #f2f2f2;
+  color: white;
   padding: 14px 28px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
 }
 
-.btn2:hover {opacity: 0.5}
+.btn2:hover {opacity: 0.6}
 .clear {    
     clear:both;    
 }
@@ -75,10 +44,17 @@ li a:hover {
   color: white;
 }
 
+.vam {
+  position: absolute;
+  top: 580px;
+  width:100%;
+  left: -300px;
+  color: black;
+}
 
 .image1 {
   margin-right:0.7%;
-  width:4%;
+  width:4.5%;
   height: auto;
 }
 
@@ -86,6 +62,20 @@ li a:hover {
   text-align: center;
   position: relative;
 
+}
+
+.batd {
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  color: white;
+}
+
+.saap {
+  position: absolute;
+  top: 2px;
+  left: 300px;
+  color: white;
 }
 
 .top-left {
@@ -111,8 +101,8 @@ li a:hover {
 
 p.text {
   font: 15px Arial, sans-serif;
+  font-size:1vw;
   color: #000000;
-  width:90%;
   position: relative;
 }
 
@@ -128,13 +118,20 @@ p.text {
 p.mini-text {
   font: italic small-caps bold 1px Georgia, serif;
   font-size:3.8vw;
-  right:2.3%;
+  right:4.3%;
   text-align: center;
   color: #000000;
   position: relative;
 
 }
 
+p.va {
+  font: 15px Arial, sans-serif;
+  color: #000000;
+  top: 10px;
+  position: absolute;
+  width : 300px;
+}
 
 p.icon-text {
   color: #000000;
@@ -151,7 +148,8 @@ a {
 
 a.home-icontext {
   position:relative;
-  font: 15px Arial, sans-serif;
+  font: 1px Arial, sans-serif;
+  font-size:0.97vw;
   margin: 4px 2px;
   margin-right:9%;
   text-decoration: none;
@@ -175,13 +173,6 @@ a.val{
   display: inline-block;
 }
 
-a.yeah{ 
-  padding: 15px 160px;
-  position:relative;
-  text-align: center;
-
-}
-
 .responsive2 {
   position: relative;
   margin-left: 8%;
@@ -189,24 +180,6 @@ a.yeah{
   width: 89.5%;
   height: auto;
 }
-
-.responsive {
-  background-color: #f2f2f2;
-  position: relative;
-  margin-left: 8.6%;
-  padding: 10px;
-  width: 80.4%;
-  height: auto;
-}
-
-.seperator {
-  background-color: #fafafa;
-  position: relative;
-  margin-left: 8.6%;
-  padding: 10px;
-  width: 80.4%;
-}
-
 div.cargallery {
   border: 0px solid #ccc;
 }
@@ -229,10 +202,9 @@ div.cargallery img {
 }
 
 div.desc {
-  background-color : #f2f2f2;
+  background-color : #fafafa;
   padding: 15px;
   text-align: left;
-  font: 15px Arial, sans-serif;
   color: #1a1a1a;
 }
 
@@ -258,16 +230,12 @@ div.gallery2 img {
 }
 
 @media only screen and (max-width: 1010px) {
-  .responsive2 .responsive{
+  .responsive2 {
   width: 89.5%;
     margin: 6px 78;
   }
   .mini-text {
 	right: 5%;
-  }
-  
-  a.yeah{ 
-  padding: 13px 75px;
   }
 
   .btn2 {
@@ -282,7 +250,7 @@ div.gallery2 img {
 }
 
 @media only screen and (max-width: 920px) {
-  .responsive2 .responsive{
+  .responsive2 {
   width: 89.5%;
     margin: 6px 64;
   }
@@ -290,10 +258,6 @@ div.gallery2 img {
 	right: 5%;
   }
 
-  a.yeah{ 
-  padding: 13px 70px;
-  }
-  
   .btn2 {
   display: block;
   font: 15px Arial, sans-serif;
@@ -305,29 +269,8 @@ div.gallery2 img {
   }
 }
 
-@media only screen and (max-width: 875px) {
-
-  a.yeah{ 
-  padding: 13px 65px;
-  }
-}
-
-@media only screen and (max-width: 837px) {
-
-  a.yeah{ 
-  padding: 13px 60px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-
-  a.yeah{ 
-  padding: 13px 55px;
-  }
-}
-
 @media only screen and (max-width: 780px) {
-  .responsive2 .responsive{
+  .responsive2 {
   width: 89.5%;
     margin: 6px 55;
   }
@@ -346,31 +289,14 @@ div.gallery2 img {
   }
 }
 
-@media only screen and (max-width: 760px) {
-
-  a.yeah{ 
-  padding: 13px 50px;
-  }
-}
-
-@media only screen and (max-width: 725px) {
-
-  a.yeah{ 
-  padding: 13px 45px;
-  }
-}
 
 @media only screen and (max-width: 690px) {
-  .responsive2 .responsive{
+  .responsive2 {
   width: 89.5%;
     margin: 6px 42;
   }
   .mini-text {
 	right: 5%;
-  }
-  
-    a.yeah{ 
-  padding: 13px 40px;
   }
 
   .btn2 {
@@ -384,30 +310,8 @@ div.gallery2 img {
   }
 }
 
-@media only screen and (max-width: 650px) {
-
-  a.yeah{ 
-  padding: 13px 35px;
-  }
-}
-
-@media only screen and (max-width: 612px) {
-
-  a.yeah{ 
-  padding: 13px 30px;
-  }
-}
-
-@media only screen and (max-width: 575px) {
-
-  a.yeah{ 
-  padding: 13px 25px;
-  }
-}
-
-
 @media only screen and (max-width: 565px) {
-  .responsive2 .responsive{
+  .responsive2 {
   width: 89.5%;
     margin: 6px 42;
   }
@@ -426,25 +330,13 @@ div.gallery2 img {
   }
 }
 
-
-@media only screen and (max-width: 538px) {
-
-  a.yeah{ 
-  padding: 13px 20px;
-  }
-}
-
 @media only screen and (max-width: 500px) {
-  .responsive2 .responsive{
+  .responsive2 {
   width: 89.5%;
     margin: 6px 32;
   }
   .mini-text {
 	right: 1%;
-  }
-  
-    a.yeah{ 
-  padding: 13px 15px;
   }
 
   .btn2 {
@@ -458,15 +350,8 @@ div.gallery2 img {
   }
 }
 
-@media only screen and (max-width: 463px) {
-
-  a.yeah{ 
-  padding: 13px 14px;
-  }
-}
-
 @media only screen and (max-width: 400px) {
-  .responsive2 .responsive{
+  .responsive2 {
     width: 89.5%;
     margin: 6px 20;
   }

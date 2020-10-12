@@ -1,62 +1,66 @@
-<!DOCTYPE html>
 <html>
-<title>ABOUT PAGE</title>
+<title>MINI Car Zone</title>
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
 <link rel="icon" href="data:image/png;base64,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">
 <meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="about.css">
+<link rel="stylesheet" href="home.css">
 </head>
 <body>
-<div>
-<a class="aboutpact" href="aboutproj.html">
+<div class="responsive2">
+  <div class="gallery2">
+      <img src="showroom.jpg">
+  <div class="top-left">MINI Zone</div>
+  <div class="top-left2">WE ARE ALWAYS HERE FOR YOU.</div>
+  </div>
+</div>
+<div class="responsive2">
 <img src="MINI_logo_BLK.svg" style="width:70px;height:70px;">
-</a>
-<p class="home"><a class="val" href="index.html">HOME<a></p>
-<p class="models"><a class="val" href="models.html">MODELS<a></p>
-<p class="pl"><a class="val" href="pricelist.html">PRICELIST<a></p>
-<p class="ab"><a class="val" href="about.html">ABOUT<a></p>
+<p class="text">From the convenience of your home, you can now browse through all our models in the Car Zone online showroom.</p>
+<p class="text">You'll be able to see the full cars lineup, watch our brand videos, shop from our Collection, schedule a CZ Service appointment and even reserve your future Car.</p>
+<p class="text">Easy, hassle free and the best way to find your dream MINI, only a click away.</p>
+<p class="text">Explore more here.</p>
+</div>
+<div class="home-icons">
+<img src="Call-Us.png" alt="cu" class="image1"><a class="home-icontext" href="tel:5551234567" target="_blank">CALL US</a>
+<img src="mini.png" alt="cu" class="image1"><a class="home-icontext" href="tel:5551234567" target="_blank">WATCH MINI VIDEO</a>
+<img src="about.png" alt="cu" class="image1"><a class="home-icontext" href="tel:5551234567" target="_blank">ABOUT MINI CAR</a>
+</div>
+<p class="mini-text">MINI GARAGE SALE.</p>
+
+<div class="responsive2">
+<div class="carresponsive">
+  <div class="cargallery">
+    <a target="_blank" href="U1E356-MINI-CooperS-3Dr-Starlight-Blue.jpg">
+      <img src="U1E356-MINI-CooperS-3Dr-Starlight-Blue.jpg">
+    </a>
+    <div class="desc"><b>2019 MINI COOPER S 3 DOOR.</b><br><br>Colour: Starlight Blue / White Roof
+						<br><br><strike>SRP: Php 3,000,000</strike><br>NOW: Php 2,700,000<br><br><button class="btn">REQUEST FOR A TEST DRIVE</button></div>
+  </div>
+  
+
 </div>
 
+<div class="carresponsive">
+  <div class="cargallery">
+    <a target="_blank" href="U1E368-MINI-CooperS-5D-Starlight-Blue.jpg">
+      <img src="U1E368-MINI-CooperS-5D-Starlight-Blue.jpg">
+    </a>
+    <div class="desc"><b>2019 MINI COOPER S 5 DOOR.</b><br><br>Colour: Starlight Blue / White Roof
+						<br><br><strike>SRP: Php 3,100,000</strike><br>NOW: Php 2,790,000<br><br></button><button class="btn">REQUEST FOR A TEST DRIVE</button></div>
+  </div>
+</div>
 
-<div class="h1div">
-<h1 class="h11">MINI CARZONE PROJECT.</h1>
-<p class="p2">DISCLAIMER: THIS PROJECT IS NOT FULLY DONE...</p>
-<p class="p2">HOME PAGE (LANDING PAGE)</p>
-<p class="p2">MODELS TAB (BUSINESS PAGE)</p>
-<p class="p2">PRICELIST</p>
-<p class="p2">ABOUT (BIOGRAPHY)</p>
-<p class="p2">BOOK NOW BUTTON (SIMPLE FORM)</p>
-<p class="p2">CREDITS : MINI websites/pages FOR IMAGES AND INFORMATIONS</p>
-<p class="p2">STAY UPDATED ON THIS PROJECT AT <a class="git" href="https://jeffriveraaa.github.io/" target="_blank"> https://jeffriveraaa.github.io/</a></p>
-<hr>
-<h1 class="h11">WEBSITE.</h1>
-<p class="p2">PROJECT NAME : MINI SHOWROOM.</p>
-<p class="p2">BUILD : HTML/CSS</p>
-<p class="p2">THEME : MINIMAL INSPIRED</p>
-<p class="p2">COLOR SCHEME :</p>
-	<div class="div1">
-		<div class="blackbox"></div>
-		<div class="whitebox"></div>
-		<div class="f2f2box"></div>
-	</div>
-<hr>
-<h1 class="h11">CREATOR.</h1>
-<p class="p2">NAME : RIVERA JEFFERSON S.</p>
-<p class="p2">COURSE : BSIT-WMA-3C</p>
-<p class="p2">SCHOOL : TARLAC STATE UNIVERSITY</p>
-<p class="p2">LOCATION : TARLAC CITY, PHILIPPINES</p>
-<p class="p2"><a class="call" href="tel:09663650034" target="_blank">CONTACT ME HERE:<a></p>
-<a href="https://www.facebook.com/jeffriveraaa/" class="fa fa-facebook" target="_blank"></a>
-<a href="https://twitter.com/jeffriveraaa?fbclid=IwAR14kWM7AGi0sataQZE3id6PRlYbZuOQUyO8Ne6zLInRUSGnbmBGF31bSlg" class="fa fa-twitter" target="_blank"></a>
-<a href="https://www.instagram.com/jeffriveraaa/?fbclid=IwAR3z67DPEnkbGfe80ofsy1u9qPzl2CrRIY97gCuhWPMeYPMVk30EVc9s-No" class="fa fa-instagram" target="_blank"></a>
-<a href="#" class="fa fa-google"></a>
-<hr>
+<div class="carresponsive">
+  <div class="cargallery">
+    <a target="_blank" href="U1E214-MINI-CooperS-5D-Thunder-Grey.jpg">
+      <img src="U1E214-MINI-CooperS-5D-Thunder-Grey.jpg">
+    </a>
+    <div class="desc"><b>2019 MINI COOPER S 5 DOOR.</b><br><br>Colour: Thunder Grey / Black Roof
+						<br><br><strike>SRP: Php 3,000,000</strike><br>NOW: Php 2,480,000<br><br></button><button class="btn">REQUEST FOR A TEST DRIVE</button></div>
+  </div>
 </div>
 <div class="clear"></div>
-<div class="mhdiv">
-<h1 class="h12"></h1>
+<a class="btn2" href="models.html">VIEW ALL MODELS<a>
 </div>
 </body>
 </html>
